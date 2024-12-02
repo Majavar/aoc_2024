@@ -11,3 +11,14 @@ How to launch:
 
 Remarks:
 * Not optimized at all. Expect around 10s to complete
+
+## Day 02
+Language: jq
+
+How to launch:
+```sh
+./day_02/answer.sh input
+```
+
+Remarks:
+* Expect JQ to be in the path
