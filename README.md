@@ -6,7 +6,7 @@ Language: Bash
 
 How to launch:
 ```sh
-./day_01/answer.sh input
+./day_01/{answer.sh,input}
 ```
 
 Remarks:
@@ -17,8 +17,19 @@ Language: jq
 
 How to launch:
 ```sh
-./day_02/answer.sh input
+./day_02/{answer.sh,input}
 ```
 
 Remarks:
 * Expect JQ to be in the path
+
+## Day 03
+Languare: perl
+
+How to launch:
+```sh
+./day_03/{answer.sh,input}
+```
+
+Remarks:
+* One liner for each part !
