@@ -24,7 +24,7 @@ Remarks:
 * Expect JQ to be in the path
 
 ## Day 03
-Languare: perl
+Language: perl
 
 How to launch:
 ```sh
@@ -33,3 +33,11 @@ How to launch:
 
 Remarks:
 * One liner for each part !
+
+## Day 04
+Language: Scratch
+
+How to launch:
+* Load program
+* Import `input` into list `input` 
+* Click on the green flag
