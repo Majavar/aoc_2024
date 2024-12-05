@@ -41,3 +41,11 @@ How to launch:
 * Load program
 * Import `input` into list `input` 
 * Click on the green flag
+
+## Day 05
+Language: Prolog
+
+How to launch:
+```sh
+swipl answer.pl input
+```
