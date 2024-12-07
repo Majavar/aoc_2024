@@ -22,7 +22,12 @@
       {
         devShells.default = mkShell.override { stdenv = stdenvNoCC; } {
           buildInputs = [
+            clojure
+            jq
+            perl
             rust
+            swi-prolog
+            sqlite
           ];
         };
       }

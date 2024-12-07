@@ -39,11 +39,16 @@ Language: Scratch
 
 How to launch:
 * Load program
-* Import `input` into list `input` 
+* Import `input` into list `input`
 * Click on the green flag
 
 ## Day 05
 Language: Prolog
+
+How to launch:
+```sh
+swipl ./day_05/{answer.pl,input}
+```
 
 ## Day 06
 Language: sqlite and Rust
@@ -54,9 +59,15 @@ How to launch:
 ```
 
 Remarks:
-* Failed to do part 2 in sqlite.
+* Failed to do part 2 in sqlite. Did it in Rust
+
+# Day 07
+Language: Clojure
 
 How to launch:
 ```sh
-swipl answer.pl input
+clj -M ./day_07/{main.clj,input}
 ```
+
+Remarks:
+* Takes around 5 seconds to complete
