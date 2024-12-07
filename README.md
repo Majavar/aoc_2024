@@ -45,6 +45,17 @@ How to launch:
 ## Day 05
 Language: Prolog
 
+## Day 06
+Language: sqlite and Rust
+
+How to launch:
+```
+./day_06_1/{answer.sh,input}
+```
+
+Remarks:
+* Failed to do part 2 in sqlite.
+
 How to launch:
 ```sh
 swipl answer.pl input
