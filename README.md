@@ -51,15 +51,21 @@ swipl ./day_05/{answer.pl,input}
 ```
 
 ## Day 06
-Language: sqlite and Rust
+Language: sqlite
 
 How to launch:
 ```
-./day_06_1/{answer.sh,input}
+./day_06/{answer.sh,input}
 ```
 
 Remarks:
-* Failed to do part 2 in sqlite. Did it in very quicky Rust. Should add obstacle only in visited position of part 1
+* Takes around 4 minutes to complete.
+
+## Day 06 part 2
+Language Rust
+
+Remark:
+* Very basic. Could be greatly improved by adding obstacles only on position visited in part 1.
 
 # Day 07
 Language: Clojure
