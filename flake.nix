@@ -25,6 +25,7 @@
             clojure
             jq
             perl
+            python3
             rust
             swi-prolog
             sqlite

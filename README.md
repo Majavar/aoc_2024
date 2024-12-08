@@ -59,7 +59,7 @@ How to launch:
 ```
 
 Remarks:
-* Failed to do part 2 in sqlite. Did it in Rust
+* Failed to do part 2 in sqlite. Did it in very quicky Rust. Should add obstacle only in visited position of part 1
 
 # Day 07
 Language: Clojure
@@ -70,4 +70,12 @@ clj -M ./day_07/{main.clj,input}
 ```
 
 Remarks:
-* Takes around 5 seconds to complete
+* Takes around 5 seconds to complete. Should replace || with 10^log(x)
+
+# Day 08
+Language: Python
+
+How to launch:
+```
+./day_08/{answer.py,input}
+```
