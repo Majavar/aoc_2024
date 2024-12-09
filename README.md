@@ -85,3 +85,11 @@ How to launch:
 ```
 ./day_08/{answer.py,input}
 ```
+
+# Day 09
+Language: C
+
+How to launch (from day_09 folder):
+```sh
+gcc main.c -o main && ./main < input
+```
