@@ -93,3 +93,11 @@ How to launch (from day_09 folder):
 ```sh
 gcc main.c -o main && ./main < input
 ```
+
+# Day 10
+Language: Rust
+
+How to launch (from day_10 folder):
+```sh
+cargo run < input
+```
