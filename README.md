@@ -101,3 +101,11 @@ How to launch (from day_10 folder):
 ```sh
 cargo run < input
 ```
+
+# Day 11
+Language: C++
+
+How to launch (from day_11 folder):
+```sh
+gcc main.cpp -o main && ./main < input
+```
