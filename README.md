@@ -67,18 +67,18 @@ Language Rust
 Remark:
 * Very basic. Could be greatly improved by adding obstacles only on position visited in part 1.
 
-# Day 07
+## Day 07
 Language: Clojure
 
 How to launch:
 ```sh
-clj -M ./day_07/{main.clj,input}
+
 ```
 
 Remarks:
 * Takes around 5 seconds to complete. Should replace || with 10^log(x)
 
-# Day 08
+## Day 08
 Language: Python
 
 How to launch:
@@ -86,7 +86,7 @@ How to launch:
 ./day_08/{answer.py,input}
 ```
 
-# Day 09
+## Day 09
 Language: C
 
 How to launch (from day_09 folder):
@@ -94,7 +94,7 @@ How to launch (from day_09 folder):
 gcc main.c -o main && ./main < input
 ```
 
-# Day 10
+## Day 10
 Language: Rust
 
 How to launch (from day_10 folder):
@@ -102,10 +102,21 @@ How to launch (from day_10 folder):
 cargo run < input
 ```
 
-# Day 11
+## Day 11
 Language: C++
 
 How to launch (from day_11 folder):
 ```sh
 gcc main.cpp -o main && ./main < input
 ```
+
+## Day 12
+Language: Julia
+
+How to launch:
+```sh
+julia ./day_07/{main.jl,input}
+```
+
+Remarks:
+* First time in Julia !

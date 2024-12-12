@@ -25,6 +25,7 @@
             clojure
             gcc
             jq
+            julia
             perl
             python3
             rust
