@@ -120,3 +120,14 @@ julia ./day_07/{main.jl,input}
 
 Remarks:
 * First time in Julia !
+
+## Day 13
+Language: Ansible
+
+How to launch:
+```sh
+ansible-playbook day_13/aoc.yml -e input_file=input
+```
+
+Remarks:
+* Code does not consider case where a and b are multiples of each other

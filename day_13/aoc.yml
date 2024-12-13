@@ -1,0 +1,48 @@
+- name: Advent of code 2024, day 13
+  hosts: localhost
+  connection: local
+  gather_facts: no
+  any_errors_fatal: true
+  vars:
+    input_file: example
+
+    input: "{{ lookup('file', input_file) | regex_replace('[^\\d\\n,]', '') | regex_replace('\\n+', ',') | split(',') | map('int') | batch(6) }}"
+
+  tasks:
+
+    - name: "Part 1"
+      set_fact:
+        part1: "{{ part1 | default(0) | int + button_a | int * 3 + button_b | int }}"
+      when: |
+        button_a | int >= 0 and
+        button_b | int >= 0 and
+        button_a | int | float == button_a | float and
+        button_b | int | float == button_b | float
+      vars:
+        button_a: "{{ (machine[4] - machine[2] * button_b | float) / machine[0] }}"
+        button_b: "{{ (machine[0] * machine[5] - machine[1] * machine[4]) / (machine[0] * machine[3] - machine[1] * machine[2]) }}"
+      loop: "{{ input }}"
+      loop_control:
+        loop_var: machine
+
+    - name: "Part 2"
+      set_fact:
+        part2: "{{ part2 | default(0) | int + button_a | int * 3 + button_b | int }}"
+      when: |
+        button_a | int >= 0 and
+        button_b | int >= 0 and
+        button_a | int | float == button_a | float and
+        button_b | int | float == button_b | float
+      vars:
+        button_a: "{{ (x | int - machine[2] * button_b | float) / machine[0] }}"
+        button_b: "{{ (machine[0] * y | int - machine[1] * x | int) / (machine[0] * machine[3] - machine[1] * machine[2]) }}"
+        x: "{{ machine[4] + 10000000000000 }}"
+        y: "{{ machine[5] + 10000000000000 }}"
+      loop: "{{ input }}"
+      loop_control:
+        loop_var: machine
+
+    - debug:
+        msg:
+          Part1: "{{ part1 }}"
+          Part2: "{{ part2 }}"

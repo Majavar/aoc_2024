@@ -22,6 +22,7 @@
       {
         devShells.default = mkShell.override { stdenv = stdenvNoCC; } {
           buildInputs = [
+            ansible
             clojure
             gcc
             jq
