@@ -131,3 +131,14 @@ ansible-playbook day_13/aoc.yml -e input_file=input
 
 Remarks:
 * Code does not consider case where a and b are multiples of each other
+
+## Day 14
+Language: Lua
+
+How to launch:
+```
+lua aoc.lua input
+```
+
+Remarks:
+* For part 2, find interesting pattern. Replace `s` width first occurrence of the pattern and `f` with frequency. Loop until christmas tree.

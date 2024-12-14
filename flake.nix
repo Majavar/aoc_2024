@@ -27,6 +27,7 @@
             gcc
             jq
             julia
+            lua5_4_compat
             perl
             python3
             rust
