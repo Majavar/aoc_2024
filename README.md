@@ -142,3 +142,12 @@ lua aoc.lua input
 
 Remarks:
 * For part 2, find interesting pattern. Replace `s` width first occurrence of the pattern and `f` with frequency. Loop until christmas tree.
+* Improvement idea for part 2: Search a big group of contiguous #
+
+## Day 15
+Language: Rust
+
+How to build & launch
+```
+cargo run < input
+```
