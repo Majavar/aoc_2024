@@ -151,3 +151,11 @@ How to build & launch
 ```
 cargo run < input
 ```
+
+## Day 16 and more
+Language: Rust
+
+How to build & launch
+```
+cargo run -- input
+```
